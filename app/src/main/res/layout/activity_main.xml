@@ -44,5 +44,29 @@
         android:layout_height="wrap_content"
         android:text="Text to speech" />
 
+    <Button
+        android:id="@+id/btn_other_app"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Other App"/>
+
+    <Button
+        android:id="@+id/btn_audio_manager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Audio Manager"/>
+
+    <Button
+        android:id="@+id/btn_wifi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wifi"/>
+
+    <Button
+        android:id="@+id/btn_alarm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alarm"/>
+
 
 </LinearLayout>

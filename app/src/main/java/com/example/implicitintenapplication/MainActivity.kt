@@ -6,6 +6,7 @@ import android.app.PendingIntent
 import android.content.Context
 import android.content.Intent
 import android.media.RingtoneManager
+import android.net.Uri
 import android.os.Build
 import android.os.Bundle
 import android.widget.Button
@@ -92,6 +93,34 @@ class MainActivity : AppCompatActivity() {
         }
             val notifikasi = builder.build()
             notificationManager.notify(idNotif,notifikasi)
+        }
+
+        binding.btnOtherApp.setOnClickListener {
+            var intent = packageManager.getLaunchIntentForPackage("com.mobile.legends")
+            if (intent != null) {
+                startActivity(intent)
+            } else {
+                val error = Intent(Intent.ACTION_VIEW)
+                error.data =
+                    Uri.parse("https://www.taptap.io/app/228434?hreflang=en_US")
+                startActivity(error)
+
+            }
+        }
+
+        btn_audio_manager.setOnClickListener {
+            val i = Intent(this, AudioManagerActivity::class.java)
+            startActivity(i)
+        }
+
+        btn_wifi.setOnClickListener {
+            val i = Intent(this, WifiActivity::class.java)
+            startActivity(i)
+        }
+
+        btn_alarm.setOnClickListener {
+            val i = Intent(this, AlarmActivity::class.java)
+            startActivity(i)
         }
 
     }

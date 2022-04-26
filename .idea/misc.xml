@@ -3,12 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Humam/AndroidStudioProjects/ImplicitIntenApplication/app/src/main/res/layout/activity_alarm.xml" value="0.1296875" />
+        <entry key="..\:/Users/Humam/AndroidStudioProjects/ImplicitIntenApplication/app/src/main/res/layout/activity_audio_manager.xml" value="0.1296875" />
         <entry key="..\:/Users/Humam/AndroidStudioProjects/ImplicitIntenApplication/app/src/main/res/layout/activity_camera.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Humam/AndroidStudioProjects/ImplicitIntenApplication/app/src/main/res/layout/activity_email.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Humam/AndroidStudioProjects/ImplicitIntenApplication/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Humam/AndroidStudioProjects/ImplicitIntenApplication/app/src/main/res/layout/activity_phone.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Humam/AndroidStudioProjects/ImplicitIntenApplication/app/src/main/res/layout/activity_sms.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Humam/AndroidStudioProjects/ImplicitIntenApplication/app/src/main/res/layout/activity_text_to_speech.xml" value="0.1296875" />
+        <entry key="..\:/Users/Humam/AndroidStudioProjects/ImplicitIntenApplication/app/src/main/res/layout/activity_wifi.xml" value="0.1296875" />
       </map>
     </option>
   </component>
